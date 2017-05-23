@@ -1,0 +1,26 @@
+
+
+body {
+
+	background-image: url("../week-4-game/assets/diamond.jpg");
+}
+
+.jumbotron {
+   background: rgb(54, 200, 54); /* This is for ie8 and below */
+   background: rgba(54, 200, 54, 0.7); 
+   font-weight: bolder;
+   padding: 20px;
+}
+
+.image {
+
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin: 0 5px 0 5px;
+}
+
+.title {
+
+	background-color: white;
+}

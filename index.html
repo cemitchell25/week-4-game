@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Collector</title>
+
+
+  <link rel="stylesheet" type= "text/css" href="reset.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type= "text/css" href="style.css">
+
+</head>
+<body>
+
+  <div class="jumbotron">
+    <h1 class="text-center">Calculate the Crystals!</h1>
+    <h3 class="text-center"> You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</h3>
+    <h3 class = "text-center"> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal.</h3>
+
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">THE CRYSTALS!</h3>
+          </div>
+
+          <div class="panel-body">
+           <button><img src = "../week-4-game/assets/blue.png"  class= "image" id= "button-blue"></button>
+            <button><img src = "../week-4-game/assets/yellow.png"  class= "image" id = "button-yellow">
+            </button>
+            <button><img src = "../week-4-game/assets/purple.png"  class= "image" id = "button-purple">
+            </button>
+            <button><img src = "../week-4-game/assets/green.png"  class= "image" id = "button-green">
+            </button>
+
+
+          </div>
+        </div>
+      </div>
+
+
+    <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">The Magic Number!</h3>
+          </div>
+          <div class="panel-body">
+            <button id="startbutton" class="btn btn-primary" value="Start!"><h1>Start!</h1></button>
+            <h3 id="magicNumber">Magic number:</h3>
+            <h3 id="userScore">Your score:</h3>
+
+      </div>
+    </div>
+  </div>
+
+      <div class="col-md-2">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title text-center">Results!</h3>
+          </div>
+          <div class="panel-body">
+            <h3 id="wins">Wins: </h3>
+            <h3 id="losses">Losses: </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
