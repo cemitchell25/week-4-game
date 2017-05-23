@@ -93,7 +93,7 @@ function gameChecker() {
     
   
 
-    if (userScore === matchScore){
+    if (userScore == matchScore){
       wins++;
       $("#wins").html('Wins: ' + wins);
       reset();

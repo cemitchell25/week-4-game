@@ -7,7 +7,7 @@ body {
 
 .jumbotron {
    background: rgb(54, 200, 54); /* This is for ie8 and below */
-   background: rgba(54, 200, 54, 0.7); 
+   background: rgba(54, 200, 54, 0.8); 
    font-weight: bolder;
    padding: 20px;
 }
