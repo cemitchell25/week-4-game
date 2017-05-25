@@ -14,7 +14,7 @@ var losses = 0;
 
 
 
-$("#startbutton").on("click", magicNumber(), reset());
+$("#startbutton").on("click", magicNumber);
 
 function magicNumber(){
     matchScore= Math.floor((Math.random() * 109) + 16);
